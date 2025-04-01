@@ -23,4 +23,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-app:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-app:v1.0
+          no-cache: true
