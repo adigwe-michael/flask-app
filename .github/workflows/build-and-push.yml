@@ -24,4 +24,7 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-app:v1.0
+<<<<<<< HEAD
           no-cache: true
+=======
+>>>>>>> 5f24363 (Kubernetes Implemented)
